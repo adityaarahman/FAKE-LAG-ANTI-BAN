@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TOOLS FAST BOOT</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  background:#eef8ff;
+  color:#172033;
+}
+.hero{
+  background:linear-gradient(135deg,#2196f3,#0d6dde);
+  color:white;
+  text-align:center;
+  padding:58px 22px 62px;
+  border-radius:0 0 70px 70px;
+  box-shadow:0 12px 30px rgba(0,80,180,.18);
+}
+.icon{
+  width:76px;height:76px;
+  margin:0 auto 22px;
+  border-radius:22px;
+  background:#10253d;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:38px;
+  box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+h1{
+  margin:0;
+  font-size:38px;
+  font-weight:800;
+  letter-spacing:.5px;
+}
+.game{
+  display:inline-block;
+  margin:18px 0 15px;
+  padding:10px 30px;
+  border:2px solid rgba(255,255,255,.45);
+  border-radius:30px;
+  font-size:21px;
+  font-weight:800;
+}
+.hero p{
+  max-width:650px;
+  margin:0 auto;
+  font-size:17px;
+  line-height:1.6;
+}
+.container{
+  max-width:900px;
+  margin:48px auto;
+  padding:0 18px;
+}
+.card{
+  background:white;
+  border-radius:28px;
+  padding:34px;
+  margin-bottom:28px;
+  box-shadow:0 10px 30px rgba(32,95,150,.10);
+}
+.card h2{
+  margin:0 0 14px;
+  color:#168be8;
+  font-size:29px;
+}
+.card p{
+  font-size:16px;
+  line-height:1.7;
+  color:#39465a;
+}
+.download{
+  display:block;
+  width:100%;
+  border:0;
+  border-radius:20px;
+  padding:18px 20px;
+  margin-top:24px;
+  background:#2196f3;
+  color:white;
+  font-size:18px;
+  font-weight:800;
+  cursor:pointer;
+  text-decoration:none;
+  text-align:center;
+  box-shadow:0 8px 20px rgba(33,150,243,.25);
+}
+.download:active{transform:scale(.98)}
+.social{
+  display:flex;
+  align-items:center;
+  gap:20px;
+}
+.telegram{
+  width:62px;height:62px;
+  flex:none;
+  border-radius:50%;
+  background:#229ed9;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:29px;
+  font-weight:bold;
+}
+.social h3{
+  margin:0 0 7px;
+  font-size:21px;
+}
+.social a{
+  color:#168be8;
+  word-break:break-all;
+  text-decoration:none;
+  font-size:16px;
+}
+footer{
+  height:100px;
+  background:linear-gradient(135deg,#116ee5,#22a5ee);
+  border-radius:55% 55% 0 0/35% 35% 0 0;
+}
+@media(max-width:600px){
+  .hero{padding:45px 18px 52px;border-radius:0 0 55px 55px}
+  h1{font-size:31px}
+  .game{font-size:18px;padding:9px 24px}
+  .hero p{font-size:15px}
+  .card{padding:27px 22px;border-radius:24px}
+  .card h2{font-size:25px}
+  .social{align-items:flex-start}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="icon">⚡</div>
+  <h1>TOOLS FAST BOOT</h1>
+  <div class="game">GAME TURBO</div>
+  <p>Optimalkan performa perangkat kamu untuk pengalaman gaming yang lebih lancar!</p>
+</section>
+
+<main class="container">
+
+  <section class="card">
+    <h2>Unduh Aplikasi</h2>
+    <p>Klik tombol di bawah untuk mengunduh Tools Fast Boot Game Turbo.</p>
+
+    <!-- GANTI "#" DENGAN LINK DOWNLOAD APK KAMU -->
+    <a class="download" href="https://sites.google.com/view/sensi-pintar/halaman-muka" target="_blank" rel="noopener">
+      CLICK DOWNLOAD
+    </a>
+  </section>
+
+  <section class="card">
+    <h2>MEDIA SOSIAL</h2>
+    <div class="social">
+      <div class="telegram">➤</div>
+      <div>
+        <h3>TELEGRAM</h3>
+        <a href="https://t.me/pintar_moods" target="_blank">
+          https://t.me/pintar_moods
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer></footer>
+
+<script>
+function downloadInfo(e){
+  e.preventDefault();
+  alert("Link download belum dipasang. Ganti href=\"#\" pada tombol CLICK DOWNLOAD dengan link APK kamu.");
+}
+</script>
+
+</body>
+</html>

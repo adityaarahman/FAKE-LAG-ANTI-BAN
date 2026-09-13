@@ -1,1 +1,0 @@
-# FAKE-LAG-ANTI-BAN
